@@ -12,8 +12,8 @@ export const App = () => {
       <BrowserRouter>
         <StackedLayout navbar={<AppNavbar />} sidebar={<AppSidebar />}>
           <Routes>
-            <Route path="/" element={<Play />} />
-            <Route path="/tutorial" element={<Tutorial />} />
+              <Route path="/" element={<Play />} />
+              <Route path="/tutorial" element={<Tutorial />} />
           </Routes>
         </StackedLayout>
       </BrowserRouter>

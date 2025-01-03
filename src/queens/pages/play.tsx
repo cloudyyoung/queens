@@ -106,7 +106,7 @@ export const Play = () => {
         </div>
 
         <Text>
-          Don't know how to play? <TextLink href="/tutorial">Check the tutorial</TextLink>
+          Don't know how to play? <TextLink href="tutorial">Check the tutorial</TextLink>
         </Text>
       </div>
     </>
