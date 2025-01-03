@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router";
-import Play from "./pages/play";
+import Play from "./queens/pages/play";
 import { StackedLayout } from "./components/stacked-layout";
 import { AppNavbar } from "./components/app/navbar";
 import { AppSidebar } from "./components/app/sidebar";
-import Tutorial from "./pages/tutorial";
+import Tutorial from "./queens/pages/tutorial";
 
 export const App = () => {
 
