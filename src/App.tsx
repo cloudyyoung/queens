@@ -10,12 +10,12 @@ export const App = () => {
   return (
     <>
       <BrowserRouter>
-        <StackedLayout navbar={<AppNavbar />} sidebar={<AppSidebar />}>
-          <Routes>
-              <Route path="/" element={<Play />} />
-              <Route path="/tutorial" element={<Tutorial />} />
-          </Routes>
-        </StackedLayout>
+        <Routes>
+          <Route path="queens" element={<StackedLayout navbar={<AppNavbar />} sidebar={<AppSidebar />} />}>
+            <Route index element={<Play />} />
+            <Route path="tutorial" element={<Tutorial />} />
+          </Route>
+        </Routes>
       </BrowserRouter>
     </>
   )
